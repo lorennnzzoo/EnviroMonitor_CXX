@@ -18,6 +18,6 @@ namespace Communicator {
 			Parity = parity;
 		}
 
-		std::string SendCommandAndReceiveResponse(int& timeout,const std::string& command);		
+		std::string* SendCommandAndReceiveResponse(int& timeout,const std::string& command);		
 	};
 }

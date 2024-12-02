@@ -15,14 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="StringLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="jsons\Parameters.json" />
-    <None Include="jsons\Analyzers.json" />
-    <None Include="jsons\Stations.json" />
-    <None Include="CONFIG\CONFIGURATION.json" />
+    <ClCompile Include="StringLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

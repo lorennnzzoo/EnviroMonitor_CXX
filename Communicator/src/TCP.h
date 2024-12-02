@@ -14,6 +14,6 @@ namespace Communicator {
 			Port = port;
 		}
 
-		std::string SendCommandAndReceiveResponse(int& timeout, const std::string& command);
+		std::string* SendCommandAndReceiveResponse(int& timeout, const std::string& command);
 	};
 }

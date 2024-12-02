@@ -79,3 +79,298 @@
 2024-12-02 12:41:20 : INFO : Analyzer found for Id : 1
 2024-12-02 12:41:20 : INFO : Type : RS485IEEE
 2024-12-02 12:41:20 : INFO : CommunicationType : IP
+2024-12-02 13:14:03 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 13:14:03 : INFO : Station Name : HTDS
+2024-12-02 13:14:03 : INFO : Parameter : Flow
+2024-12-02 13:14:03 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:03 : INFO : Type : RS485IEEE
+2024-12-02 13:14:03 : INFO : CommunicationType : IP
+2024-12-02 13:14:05 : INFO : Parameter : Totalizer
+2024-12-02 13:14:05 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:05 : INFO : Type : RS485IEEE
+2024-12-02 13:14:05 : INFO : CommunicationType : IP
+2024-12-02 13:14:07 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 13:14:07 : INFO : Station Name : LTDS
+2024-12-02 13:14:07 : INFO : Parameter : Flow1
+2024-12-02 13:14:07 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:07 : INFO : Type : RS485IEEE
+2024-12-02 13:14:07 : INFO : CommunicationType : IP
+2024-12-02 13:14:09 : INFO : Parameter : Totalizer1
+2024-12-02 13:14:09 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:09 : INFO : Type : RS485IEEE
+2024-12-02 13:14:09 : INFO : CommunicationType : IP
+2024-12-02 13:14:14 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 13:14:14 : INFO : Station Name : HTDS
+2024-12-02 13:14:14 : INFO : Parameter : Flow
+2024-12-02 13:14:14 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:14 : INFO : Type : RS485IEEE
+2024-12-02 13:14:14 : INFO : CommunicationType : IP
+2024-12-02 13:14:16 : INFO : Parameter : Totalizer
+2024-12-02 13:14:16 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:16 : INFO : Type : RS485IEEE
+2024-12-02 13:14:16 : INFO : CommunicationType : IP
+2024-12-02 13:14:18 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 13:14:18 : INFO : Station Name : LTDS
+2024-12-02 13:14:18 : INFO : Parameter : Flow1
+2024-12-02 13:14:18 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:18 : INFO : Type : RS485IEEE
+2024-12-02 13:14:18 : INFO : CommunicationType : IP
+2024-12-02 13:14:20 : INFO : Parameter : Totalizer1
+2024-12-02 13:14:20 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:20 : INFO : Type : RS485IEEE
+2024-12-02 13:14:20 : INFO : CommunicationType : IP
+2024-12-02 13:14:51 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 13:14:51 : INFO : Station Name : HTDS
+2024-12-02 13:14:51 : INFO : Parameter : Flow
+2024-12-02 13:14:51 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:51 : INFO : Type : RS485IEEE
+2024-12-02 13:14:51 : INFO : CommunicationType : IP
+2024-12-02 13:14:53 : INFO : Parameter : Totalizer
+2024-12-02 13:14:53 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:53 : INFO : Type : RS485IEEE
+2024-12-02 13:14:53 : INFO : CommunicationType : IP
+2024-12-02 13:14:55 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 13:14:55 : INFO : Station Name : LTDS
+2024-12-02 13:14:55 : INFO : Parameter : Flow1
+2024-12-02 13:14:55 : INFO : Analyzer found for Id : 1
+2024-12-02 13:14:55 : INFO : Type : RS485IEEE
+2024-12-02 13:14:55 : INFO : CommunicationType : IP
+2024-12-02 13:15:49 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 13:15:49 : INFO : Station Name : HTDS
+2024-12-02 13:15:49 : INFO : Parameter : Flow
+2024-12-02 13:15:49 : INFO : Analyzer found for Id : 1
+2024-12-02 13:15:49 : INFO : Type : RS485IEEE
+2024-12-02 13:15:49 : INFO : CommunicationType : IP
+2024-12-02 13:15:51 : INFO : Parameter : Totalizer
+2024-12-02 13:15:51 : INFO : Analyzer found for Id : 1
+2024-12-02 13:15:51 : INFO : Type : RS485IEEE
+2024-12-02 13:15:51 : INFO : CommunicationType : IP
+2024-12-02 13:15:53 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 13:15:53 : INFO : Station Name : LTDS
+2024-12-02 13:15:53 : INFO : Parameter : Flow1
+2024-12-02 13:15:53 : INFO : Analyzer found for Id : 1
+2024-12-02 13:15:53 : INFO : Type : RS485IEEE
+2024-12-02 13:15:53 : INFO : CommunicationType : IP
+2024-12-02 13:15:55 : INFO : Parameter : Totalizer1
+2024-12-02 13:15:55 : INFO : Analyzer found for Id : 1
+2024-12-02 13:15:55 : INFO : Type : RS485IEEE
+2024-12-02 13:15:55 : INFO : CommunicationType : IP
+2024-12-02 13:17:13 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 13:17:13 : INFO : Station Name : HTDS
+2024-12-02 13:17:13 : INFO : Parameter : Flow
+2024-12-02 13:17:13 : INFO : Analyzer found for Id : 1
+2024-12-02 13:17:13 : INFO : Type : RS485IEEE
+2024-12-02 13:17:13 : INFO : CommunicationType : IP
+2024-12-02 13:17:16 : INFO : Parameter : Totalizer
+2024-12-02 13:17:16 : INFO : Analyzer found for Id : 1
+2024-12-02 13:17:16 : INFO : Type : RS485IEEE
+2024-12-02 13:17:16 : INFO : CommunicationType : IP
+2024-12-02 13:17:18 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 13:17:18 : INFO : Station Name : LTDS
+2024-12-02 13:17:18 : INFO : Parameter : Flow1
+2024-12-02 13:17:18 : INFO : Analyzer found for Id : 1
+2024-12-02 13:17:18 : INFO : Type : RS485IEEE
+2024-12-02 13:17:18 : INFO : CommunicationType : IP
+2024-12-02 14:39:41 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 14:39:41 : INFO : Station Name : HTDS
+2024-12-02 14:39:41 : INFO : Parameter : Flow
+2024-12-02 14:39:41 : INFO : Analyzer found for Id : 1
+2024-12-02 14:39:41 : INFO : Type : RS485IEEE
+2024-12-02 14:39:41 : INFO : CommunicationType : IP
+2024-12-02 14:39:43 : INFO : Response : 
+2024-12-02 14:39:43 : INFO : Parameter : Totalizer
+2024-12-02 14:39:43 : INFO : Analyzer found for Id : 1
+2024-12-02 14:39:43 : INFO : Type : RS485IEEE
+2024-12-02 14:39:43 : INFO : CommunicationType : IP
+2024-12-02 14:39:45 : INFO : Response : 
+2024-12-02 14:39:45 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 14:39:45 : INFO : Station Name : LTDS
+2024-12-02 14:39:45 : INFO : Parameter : Flow1
+2024-12-02 14:39:45 : INFO : Analyzer found for Id : 1
+2024-12-02 14:39:45 : INFO : Type : RS485IEEE
+2024-12-02 14:39:45 : INFO : CommunicationType : IP
+2024-12-02 14:39:47 : INFO : Response : 
+2024-12-02 14:39:47 : INFO : Parameter : Totalizer1
+2024-12-02 14:39:47 : INFO : Analyzer found for Id : 1
+2024-12-02 14:39:47 : INFO : Type : RS485IEEE
+2024-12-02 14:39:47 : INFO : CommunicationType : IP
+2024-12-02 14:39:49 : INFO : Response : 
+2024-12-02 14:42:14 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 14:42:14 : INFO : Station Name : HTDS
+2024-12-02 14:42:14 : INFO : Parameter : Flow
+2024-12-02 14:42:14 : INFO : Analyzer found for Id : 1
+2024-12-02 14:42:14 : INFO : Type : RS485IEEE
+2024-12-02 14:42:14 : INFO : CommunicationType : IP
+2024-12-02 14:42:16 : INFO : Response : 
+2024-12-02 14:42:16 : INFO : Parameter : Totalizer
+2024-12-02 14:42:16 : INFO : Analyzer found for Id : 1
+2024-12-02 14:42:16 : INFO : Type : RS485IEEE
+2024-12-02 14:42:16 : INFO : CommunicationType : IP
+2024-12-02 14:42:18 : INFO : Response : 
+2024-12-02 14:42:18 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 14:42:18 : INFO : Station Name : LTDS
+2024-12-02 14:42:18 : INFO : Parameter : Flow1
+2024-12-02 14:42:18 : INFO : Analyzer found for Id : 1
+2024-12-02 14:42:18 : INFO : Type : RS485IEEE
+2024-12-02 14:42:18 : INFO : CommunicationType : IP
+2024-12-02 14:42:20 : INFO : Response : 
+2024-12-02 14:42:20 : INFO : Parameter : Totalizer1
+2024-12-02 14:42:20 : INFO : Analyzer found for Id : 1
+2024-12-02 14:42:20 : INFO : Type : RS485IEEE
+2024-12-02 14:42:20 : INFO : CommunicationType : IP
+2024-12-02 14:42:23 : INFO : Response : 
+2024-12-02 14:43:51 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 14:43:51 : INFO : Station Name : HTDS
+2024-12-02 14:43:51 : INFO : Parameter : Flow
+2024-12-02 14:43:51 : INFO : Analyzer found for Id : 1
+2024-12-02 14:43:51 : INFO : Type : RS485IEEE
+2024-12-02 14:43:51 : INFO : CommunicationType : IP
+2024-12-02 14:43:53 : INFO : Response : 
+2024-12-02 14:43:53 : INFO : Parameter : Totalizer
+2024-12-02 14:43:53 : INFO : Analyzer found for Id : 1
+2024-12-02 14:43:53 : INFO : Type : RS485IEEE
+2024-12-02 14:43:53 : INFO : CommunicationType : IP
+2024-12-02 14:43:55 : INFO : Response : 
+2024-12-02 14:43:55 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 14:43:55 : INFO : Station Name : LTDS
+2024-12-02 14:43:55 : INFO : Parameter : Flow1
+2024-12-02 14:43:55 : INFO : Analyzer found for Id : 1
+2024-12-02 14:43:55 : INFO : Type : RS485IEEE
+2024-12-02 14:43:55 : INFO : CommunicationType : IP
+2024-12-02 14:43:57 : INFO : Response : 
+2024-12-02 14:43:57 : INFO : Parameter : Totalizer1
+2024-12-02 14:43:57 : INFO : Analyzer found for Id : 1
+2024-12-02 14:43:57 : INFO : Type : RS485IEEE
+2024-12-02 14:43:57 : INFO : CommunicationType : IP
+2024-12-02 14:43:59 : INFO : Response : 
+2024-12-02 14:45:24 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 14:45:24 : INFO : Station Name : HTDS
+2024-12-02 14:45:24 : INFO : Parameter : Flow
+2024-12-02 14:45:24 : INFO : Analyzer found for Id : 1
+2024-12-02 14:45:24 : INFO : Type : RS485IEEE
+2024-12-02 14:45:24 : INFO : CommunicationType : IP
+2024-12-02 14:45:24 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:45:26 : INFO : Response : 
+2024-12-02 14:45:26 : INFO : Parameter : Totalizer
+2024-12-02 14:45:26 : INFO : Analyzer found for Id : 1
+2024-12-02 14:45:26 : INFO : Type : RS485IEEE
+2024-12-02 14:45:26 : INFO : CommunicationType : IP
+2024-12-02 14:45:26 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:45:28 : INFO : Response : 
+2024-12-02 14:45:28 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 14:45:28 : INFO : Station Name : LTDS
+2024-12-02 14:45:28 : INFO : Parameter : Flow1
+2024-12-02 14:45:28 : INFO : Analyzer found for Id : 1
+2024-12-02 14:45:28 : INFO : Type : RS485IEEE
+2024-12-02 14:45:28 : INFO : CommunicationType : IP
+2024-12-02 14:45:28 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:45:30 : INFO : Response : 
+2024-12-02 14:45:30 : INFO : Parameter : Totalizer1
+2024-12-02 14:45:30 : INFO : Analyzer found for Id : 1
+2024-12-02 14:45:30 : INFO : Type : RS485IEEE
+2024-12-02 14:45:30 : INFO : CommunicationType : IP
+2024-12-02 14:45:30 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:45:32 : INFO : Response : 
+2024-12-02 14:54:11 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 14:54:11 : INFO : Station Name : HTDS
+2024-12-02 14:54:11 : INFO : Parameter : Flow
+2024-12-02 14:54:11 : INFO : Analyzer found for Id : 1
+2024-12-02 14:54:11 : INFO : Type : RS485IEEE
+2024-12-02 14:54:11 : INFO : CommunicationType : IP
+2024-12-02 14:54:11 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:54:13 : ERROR : Error in TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 14:54:13 : INFO : Response : 
+2024-12-02 14:54:13 : INFO : Parameter : Totalizer
+2024-12-02 14:54:13 : INFO : Analyzer found for Id : 1
+2024-12-02 14:54:13 : INFO : Type : RS485IEEE
+2024-12-02 14:54:13 : INFO : CommunicationType : IP
+2024-12-02 14:54:13 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:54:15 : ERROR : Error in TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 14:54:15 : INFO : Response : 
+2024-12-02 14:54:15 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 14:54:15 : INFO : Station Name : LTDS
+2024-12-02 14:54:15 : INFO : Parameter : Flow1
+2024-12-02 14:54:15 : INFO : Analyzer found for Id : 1
+2024-12-02 14:54:15 : INFO : Type : RS485IEEE
+2024-12-02 14:54:15 : INFO : CommunicationType : IP
+2024-12-02 14:54:15 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:54:17 : ERROR : Error in TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 14:54:17 : INFO : Response : 
+2024-12-02 14:54:17 : INFO : Parameter : Totalizer1
+2024-12-02 14:54:17 : INFO : Analyzer found for Id : 1
+2024-12-02 14:54:17 : INFO : Type : RS485IEEE
+2024-12-02 14:54:17 : INFO : CommunicationType : IP
+2024-12-02 14:54:17 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 14:54:19 : ERROR : Error in TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 14:54:19 : INFO : Response : 
+2024-12-02 15:26:39 : ERROR : Error at main Error : Could not open file: iostream stream error
+2024-12-02 15:26:49 : ERROR : Error at main Error : Could not open file: iostream stream error
+2024-12-02 15:28:54 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 15:28:55 : INFO : Station Name : HTDS
+2024-12-02 15:28:55 : INFO : Parameter : Flow
+2024-12-02 15:28:55 : INFO : Analyzer found for Id : 1
+2024-12-02 15:28:55 : INFO : Type : RS485IEEE
+2024-12-02 15:28:55 : INFO : CommunicationType : IP
+2024-12-02 15:28:55 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:28:57 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:28:57 : INFO : Response : 
+2024-12-02 15:28:57 : INFO : Parameter : Totalizer
+2024-12-02 15:28:57 : INFO : Analyzer found for Id : 1
+2024-12-02 15:28:57 : INFO : Type : RS485IEEE
+2024-12-02 15:28:57 : INFO : CommunicationType : IP
+2024-12-02 15:28:57 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:28:59 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:28:59 : INFO : Response : 
+2024-12-02 15:28:59 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 15:28:59 : INFO : Station Name : LTDS
+2024-12-02 15:28:59 : INFO : Parameter : Flow1
+2024-12-02 15:28:59 : INFO : Analyzer found for Id : 1
+2024-12-02 15:28:59 : INFO : Type : RS485IEEE
+2024-12-02 15:28:59 : INFO : CommunicationType : IP
+2024-12-02 15:28:59 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:29:01 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:29:01 : INFO : Response : 
+2024-12-02 15:29:01 : INFO : Parameter : Totalizer1
+2024-12-02 15:29:01 : INFO : Analyzer found for Id : 1
+2024-12-02 15:29:01 : INFO : Type : RS485IEEE
+2024-12-02 15:29:01 : INFO : CommunicationType : IP
+2024-12-02 15:29:01 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:32:13 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 15:32:13 : INFO : Station Name : HTDS
+2024-12-02 15:32:16 : INFO : Parameter : Flow
+2024-12-02 15:32:30 : INFO : Analyzer found for Id : 1
+2024-12-02 15:32:38 : INFO : Type : RS485IEEE
+2024-12-02 15:32:43 : INFO : CommunicationType : IP
+2024-12-02 15:32:50 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:58:42 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 15:58:42 : INFO : Station Name : HTDS
+2024-12-02 15:58:42 : INFO : Parameter : Flow
+2024-12-02 15:58:42 : INFO : Analyzer found for Id : 1
+2024-12-02 15:58:42 : INFO : Type : RS485IEEE
+2024-12-02 15:58:42 : INFO : CommunicationType : IP
+2024-12-02 15:58:42 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:58:44 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:58:44 : WARN : No response received
+2024-12-02 15:58:44 : INFO : Parameter : Totalizer
+2024-12-02 15:58:44 : INFO : Analyzer found for Id : 1
+2024-12-02 15:58:44 : INFO : Type : RS485IEEE
+2024-12-02 15:58:44 : INFO : CommunicationType : IP
+2024-12-02 15:58:44 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:58:46 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:58:46 : WARN : No response received
+2024-12-02 15:58:46 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 15:58:46 : INFO : Station Name : LTDS
+2024-12-02 15:58:46 : INFO : Parameter : Flow1
+2024-12-02 15:58:46 : INFO : Analyzer found for Id : 1
+2024-12-02 15:58:46 : INFO : Type : RS485IEEE
+2024-12-02 15:58:46 : INFO : CommunicationType : IP
+2024-12-02 15:58:46 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:58:48 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:58:48 : WARN : No response received
+2024-12-02 15:58:48 : INFO : Parameter : Totalizer1
+2024-12-02 15:58:48 : INFO : Analyzer found for Id : 1
+2024-12-02 15:58:48 : INFO : Type : RS485IEEE
+2024-12-02 15:58:48 : INFO : CommunicationType : IP
+2024-12-02 15:58:48 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-02 15:58:50 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it [system:10061 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\win_iocp_socket_service.hpp:629:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::connect(struct boost::asio::detail::win_iocp_socket_service<class boost::asio::ip::tcp>::implementation_type &,const class boost::asio::ip::basic_endpoint<class boost::asio::ip::tcp> &,class boost::system::error_code &)']
+2024-12-02 15:58:50 : WARN : No response received

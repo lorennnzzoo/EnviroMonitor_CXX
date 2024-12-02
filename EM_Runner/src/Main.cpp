@@ -11,12 +11,13 @@ typedef std::vector<Monitor::Station> Stations;
 typedef std::vector<Monitor::Analyzer> Analyzers;
 typedef std::vector<Monitor::Parameter> Parameters;
 
-const std::string CONFIG_PATH= "F:/C++/EnviroMonitor/EM_Runner/CONFIG/CONFIGURATION.json";
+const std::string CONFIG_PATH = "F:/C++/EnviroMonitor/EM_Runner/CONFIG/CONFIGURATION.json";
+//const std::string CONFIG_PATH = "C:/EM_Runner/CONFIG/CONFIGURATION.json";
 
 int main() {
-	try {		
+	try {
 		Config::File configFile(CONFIG_PATH);
-		
+
 
 
 		stationsJsonPath = configFile.GetStringKey("StationsPath");
@@ -34,19 +35,19 @@ int main() {
 			std::vector<Monitor::Parameter> matchedParameters;
 
 			for (const auto& parameter_ : parameters) {
-				if (parameter_.StationId == station.Id) {					
-					matchedParameters.push_back(parameter_) ;					
+				if (parameter_.StationId == station.Id) {
+					matchedParameters.push_back(parameter_);
 				}
 			}
-			if (matchedParameters.size()>0) {				
+			if (matchedParameters.size() > 0) {
 				Log::Information("Count of matched parameters with Station Id : " + std::to_string(station.Id) + " = " + std::to_string(matchedParameters.size()));
 				Log::Information("Station Name : " + station.Name);
 
 
 				for (const auto& parameter : matchedParameters) {
-					Log::Information("Parameter : " +parameter.Name);
+					Log::Information("Parameter : " + parameter.Name);
 
-					Monitor::Analyzer* matchedAnalyzer=nullptr;
+					Monitor::Analyzer* matchedAnalyzer = nullptr;
 
 					for (auto& analyzer : analyzers) {
 						if (analyzer.Id == parameter.AnalyzerId) {
@@ -59,47 +60,58 @@ int main() {
 						Log::Information("Analyzer found for Id : " + std::to_string(parameter.AnalyzerId));
 						Log::Information("Type : " + matchedAnalyzer->Type);
 						Log::Information("CommunicationType : " + matchedAnalyzer->CommunicationType);
+						std::string* response=nullptr;
 						if (matchedAnalyzer->CommunicationType == "C") {
 							Communicator::Serial serial(matchedAnalyzer->Comport, matchedAnalyzer->BaudRate, matchedAnalyzer->StopBits, matchedAnalyzer->DataBits, matchedAnalyzer->Parity);
 							try {
-								std::string response = serial.SendCommandAndReceiveResponse(matchedAnalyzer->TimeoutInSeconds, matchedAnalyzer->Command);
+								response = serial.SendCommandAndReceiveResponse(matchedAnalyzer->TimeoutInSeconds, matchedAnalyzer->Command);
 							}
-							catch(const std::exception& ex) {
+							catch (const std::exception& ex) {
 								Log::Error("Error at serial communication", &ex);
 							}
-							
+
 						}
 						else if (matchedAnalyzer->CommunicationType == "IP")
 						{
+							Log::Information("IP : " + matchedAnalyzer->Ip + " Port : " + std::to_string( matchedAnalyzer->Port));
 							Communicator::TCP tcp(matchedAnalyzer->Ip, matchedAnalyzer->TimeoutInSeconds);
 							try {
 
-							std::string response = tcp.SendCommandAndReceiveResponse(matchedAnalyzer->TimeoutInSeconds, matchedAnalyzer->Command);
+								response = tcp.SendCommandAndReceiveResponse(matchedAnalyzer->TimeoutInSeconds, matchedAnalyzer->Command);
 							}
-							catch(const std::exception& ex) {
+							catch (const std::exception& ex) {
 								Log::Error("Error at tcp communication", &ex);
 							}
 						}
 						else {
 							Log::Warning("Unknown Communication Type");
 						}
+
+
+						if (response != nullptr) {
+							Log::Information("Response : " + *response);
+						}
+						else {
+							Log::Warning("No response received");
+						}
+							
 					}
 					else {
 						Log::Warning("Unable to find analyzer with Id : " + parameter.AnalyzerId);
 					}
-					
+
 				}
 			}
-			else {				
+			else {
 				Log::Warning("No parameters with station id : " + std::to_string(station.Id) + " found\n");
 			}
 		}
 
 
 	}
-	catch (const std::exception& ex) {	
+	catch (const std::exception& ex) {
 		Log::Error("Error at main", &ex);
 	}
-
+	Log::Information("\nPress ENTER to terminate");
 	std::cin.get();
 }

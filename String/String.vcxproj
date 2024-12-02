@@ -21,32 +21,32 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fab3a614-10db-43d6-ad8e-88a858efb0b2}</ProjectGuid>
-    <RootNamespace>EMRunner</RootNamespace>
+    <ProjectGuid>{7b4d013b-2e1e-4227-90f4-ea094f921c1e}</ProjectGuid>
+    <RootNamespace>String</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -73,22 +73,18 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>intermediates\$(Platform)\$(Configuration)\</IntDir>
-    <TargetName>EnviroMonitor</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>intermediates\$(Platform)\$(Configuration)\</IntDir>
-    <TargetName>EnviroMonitor</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>intermediates\$(Platform)\$(Configuration)\</IntDir>
-    <TargetName>EnviroMonitor</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>intermediates\$(Platform)\$(Configuration)\</IntDir>
-    <TargetName>EnviroMonitor</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -97,12 +93,10 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectIncludes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <PerUserRedirection>false</PerUserRedirection>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -114,14 +108,12 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectIncludes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <PerUserRedirection>false</PerUserRedirection>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -131,12 +123,10 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectIncludes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <PerUserRedirection>false</PerUserRedirection>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -148,44 +138,19 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectIncludes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <PerUserRedirection>false</PerUserRedirection>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp" />
+    <ClInclude Include="StringLib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Communicator\Communicator.vcxproj">
-      <Project>{aac639fb-a86f-45cc-bc7b-bfefb6892ee4}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Configurator\Configurator.vcxproj">
-      <Project>{6062d0c2-33c7-488c-976e-94506bc15a8a}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\DateTime\DateTime.vcxproj">
-      <Project>{9aa54c56-dff3-4ffe-9d08-f6059323ec3e}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Logger\Logger.vcxproj">
-      <Project>{48accac2-bc6c-4ff0-b294-8423c2e83d9f}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Protocol\Protocol.vcxproj">
-      <Project>{b2bdb740-806e-49b8-9eb2-a1122a03fc22}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\String\String.vcxproj">
-      <Project>{7b4d013b-2e1e-4227-90f4-ea094f921c1e}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CONFIG\CONFIGURATION.json" />
-    <None Include="jsons\Analyzers.json" />
-    <None Include="jsons\Parameters.json" />
-    <None Include="jsons\Stations.json" />
+    <ClCompile Include="StringLib.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
-#include "../../ProjectIncludes/boost/asio.hpp"
+//#include "../../ProjectIncludes/boost/asio.hpp"25
+#include <Windows.h>
+
 namespace Communicator {
 	class Serial {
 	public:

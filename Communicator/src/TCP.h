@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
-#include "../../ProjectIncludes/boost/asio.hpp"
+//#include "../../ProjectIncludes/boost/asio.hpp"
+#include <Windows.h>
 
 namespace Communicator {
 	class TCP {

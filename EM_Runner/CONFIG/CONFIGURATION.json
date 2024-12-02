@@ -1,0 +1,6 @@
+
+{
+"StationsPath":"F:/C++/EnviroMonitor/EM_Runner/jsons/Stations.json",
+"AnalyzersPath":"F:/C++/EnviroMonitor/EM_Runner/jsons/Analyzers.json",
+"ParametersPath":"F:/C++/EnviroMonitor/EM_Runner/jsons/Parameters.json"
+}

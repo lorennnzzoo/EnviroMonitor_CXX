@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Name": "Flow",
+    "StationId": 1,
+    "AnalyzerId": 1,
+    "ChannelNo": 3
+  },
+  {
+    "Id": 2,
+    "Name": "Totalizer",
+    "StationId": 1,
+    "AnalyzerId": 1,
+    "ChannelNo": 3
+  },
+  {
+    "Id": 3,
+    "Name": "Flow1",
+    "StationId": 2,
+    "AnalyzerId": 1,
+    "ChannelNo": 3
+  },
+  {
+    "Id": 3,
+    "Name": "Totalizer1",
+    "StationId": 2,
+    "AnalyzerId": 1,
+    "ChannelNo": 3
+  }
+]

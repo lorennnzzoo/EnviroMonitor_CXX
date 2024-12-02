@@ -1,0 +1,81 @@
+2024-12-02 11:44:05 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 11:44:05 : INFO : Station Name : HTDS
+2024-12-02 11:44:05 : INFO : Parameter : Flow
+2024-12-02 11:44:05 : INFO : Analyzer found for Id : 1
+2024-12-02 11:44:05 : INFO : Type : RS485IEEE
+2024-12-02 11:44:05 : INFO : CommunicationType : C
+2024-12-02 11:44:05 : INFO : Parameter : Totalizer
+2024-12-02 11:44:05 : INFO : Analyzer found for Id : 1
+2024-12-02 11:44:05 : INFO : Type : RS485IEEE
+2024-12-02 11:44:05 : INFO : CommunicationType : C
+2024-12-02 11:44:05 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 11:44:05 : INFO : Station Name : LTDS
+2024-12-02 11:44:05 : INFO : Parameter : Flow1
+2024-12-02 11:44:05 : INFO : Analyzer found for Id : 1
+2024-12-02 11:44:05 : INFO : Type : RS485IEEE
+2024-12-02 11:44:05 : INFO : CommunicationType : C
+2024-12-02 11:44:05 : INFO : Parameter : Totalizer1
+2024-12-02 11:44:05 : INFO : Analyzer found for Id : 1
+2024-12-02 11:44:05 : INFO : Type : RS485IEEE
+2024-12-02 11:44:05 : INFO : CommunicationType : C
+2024-12-02 12:28:36 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 12:28:36 : INFO : Station Name : HTDS
+2024-12-02 12:28:36 : INFO : Parameter : Flow
+2024-12-02 12:28:36 : INFO : Analyzer found for Id : 1
+2024-12-02 12:28:36 : INFO : Type : RS485IEEE
+2024-12-02 12:28:36 : INFO : CommunicationType : C
+2024-12-02 12:28:36 : ERROR : Error at main Error : open: The system cannot find the file specified [system:2 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\impl\win_iocp_serial_port_service.ipp:66:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_serial_port_service::open(class boost::asio::detail::win_iocp_handle_service::implementation_type &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class boost::system::error_code &)']
+2024-12-02 12:30:10 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 12:30:10 : INFO : Station Name : HTDS
+2024-12-02 12:30:10 : INFO : Parameter : Flow
+2024-12-02 12:30:10 : INFO : Analyzer found for Id : 1
+2024-12-02 12:30:10 : INFO : Type : RS485IEEE
+2024-12-02 12:30:10 : INFO : CommunicationType : C
+2024-12-02 12:30:10 : ERROR : Error at serial communication Error : open: The system cannot find the file specified [system:2 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\impl\win_iocp_serial_port_service.ipp:66:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_serial_port_service::open(class boost::asio::detail::win_iocp_handle_service::implementation_type &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class boost::system::error_code &)']
+2024-12-02 12:30:10 : INFO : Parameter : Totalizer
+2024-12-02 12:30:10 : INFO : Analyzer found for Id : 1
+2024-12-02 12:30:10 : INFO : Type : RS485IEEE
+2024-12-02 12:30:10 : INFO : CommunicationType : C
+2024-12-02 12:30:10 : ERROR : Error at serial communication Error : open: The system cannot find the file specified [system:2 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\impl\win_iocp_serial_port_service.ipp:66:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_serial_port_service::open(class boost::asio::detail::win_iocp_handle_service::implementation_type &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class boost::system::error_code &)']
+2024-12-02 12:30:10 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 12:30:10 : INFO : Station Name : LTDS
+2024-12-02 12:30:10 : INFO : Parameter : Flow1
+2024-12-02 12:30:10 : INFO : Analyzer found for Id : 1
+2024-12-02 12:30:10 : INFO : Type : RS485IEEE
+2024-12-02 12:30:10 : INFO : CommunicationType : C
+2024-12-02 12:30:10 : ERROR : Error at serial communication Error : open: The system cannot find the file specified [system:2 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\impl\win_iocp_serial_port_service.ipp:66:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_serial_port_service::open(class boost::asio::detail::win_iocp_handle_service::implementation_type &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class boost::system::error_code &)']
+2024-12-02 12:30:10 : INFO : Parameter : Totalizer1
+2024-12-02 12:30:10 : INFO : Analyzer found for Id : 1
+2024-12-02 12:30:10 : INFO : Type : RS485IEEE
+2024-12-02 12:30:10 : INFO : CommunicationType : C
+2024-12-02 12:30:10 : ERROR : Error at serial communication Error : open: The system cannot find the file specified [system:2 at F:\C++\EnviroMonitor\ProjectIncludes\boost\asio\detail\impl\win_iocp_serial_port_service.ipp:66:5 in function 'class boost::system::error_code __cdecl boost::asio::detail::win_iocp_serial_port_service::open(class boost::asio::detail::win_iocp_handle_service::implementation_type &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class boost::system::error_code &)']
+2024-12-02 12:31:24 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 12:31:24 : INFO : Station Name : HTDS
+2024-12-02 12:31:24 : INFO : Parameter : Flow
+2024-12-02 12:31:24 : INFO : Analyzer found for Id : 1
+2024-12-02 12:31:24 : INFO : Type : RS485IEEE
+2024-12-02 12:31:24 : INFO : CommunicationType : IP
+2024-12-02 12:31:45 : INFO : Parameter : Totalizer
+2024-12-02 12:31:45 : INFO : Analyzer found for Id : 1
+2024-12-02 12:31:45 : INFO : Type : RS485IEEE
+2024-12-02 12:31:45 : INFO : CommunicationType : IP
+2024-12-02 12:41:13 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-02 12:41:13 : INFO : Station Name : HTDS
+2024-12-02 12:41:13 : INFO : Parameter : Flow
+2024-12-02 12:41:13 : INFO : Analyzer found for Id : 1
+2024-12-02 12:41:13 : INFO : Type : RS485IEEE
+2024-12-02 12:41:13 : INFO : CommunicationType : IP
+2024-12-02 12:41:16 : INFO : Parameter : Totalizer
+2024-12-02 12:41:16 : INFO : Analyzer found for Id : 1
+2024-12-02 12:41:16 : INFO : Type : RS485IEEE
+2024-12-02 12:41:16 : INFO : CommunicationType : IP
+2024-12-02 12:41:18 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-02 12:41:18 : INFO : Station Name : LTDS
+2024-12-02 12:41:18 : INFO : Parameter : Flow1
+2024-12-02 12:41:18 : INFO : Analyzer found for Id : 1
+2024-12-02 12:41:18 : INFO : Type : RS485IEEE
+2024-12-02 12:41:18 : INFO : CommunicationType : IP
+2024-12-02 12:41:20 : INFO : Parameter : Totalizer1
+2024-12-02 12:41:20 : INFO : Analyzer found for Id : 1
+2024-12-02 12:41:20 : INFO : Type : RS485IEEE
+2024-12-02 12:41:20 : INFO : CommunicationType : IP

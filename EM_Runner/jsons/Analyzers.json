@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Type": "RS485IEEE",
+    "CommunicationType": "IP",
+    "Comport": "COM1",
+    "Parity": "NONE",
+    "TimeoutInSeconds": 5,
+    "BaudRate": 9600,
+    "StopBits": 1,
+    "DataBits": 8,
+    "Port": 502,
+    "Ip": "192.168.1.243",
+    "Command": "HELLO"
+  }
+]

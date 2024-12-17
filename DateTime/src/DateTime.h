@@ -6,12 +6,12 @@
 class DateTime {
 public:
 
-	int Minute();
-	int Hour();
-	int Day();
-	int Year();
-	int Month();
-	int Second();
+	static int Minute();
+	static int Hour();
+	static int Day();
+	static int Year();
+	static int Month();
+	static int Second();
 
 	static std::string GetCurrentTime();
 	static std::string GetCurrentTime(const std::string& format);	

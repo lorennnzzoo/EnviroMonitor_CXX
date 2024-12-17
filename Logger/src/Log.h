@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-
+#include "../../FileSystem/src/File.h"
 class Log {
 public:
 	enum Level {

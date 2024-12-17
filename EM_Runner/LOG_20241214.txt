@@ -1,0 +1,33 @@
+2024-12-14 15:47:52 : ERROR : Error at main Error : Could not open file: iostream stream error
+2024-12-14 15:48:34 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-14 15:48:34 : INFO : Station Name : HTDS
+2024-12-14 15:48:34 : INFO : Parameter : Flow
+2024-12-14 15:48:34 : INFO : Analyzer found for Id : 1
+2024-12-14 15:48:34 : INFO : Type : RS485IEEE
+2024-12-14 15:48:34 : INFO : CommunicationType : IP
+2024-12-14 15:48:34 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-14 15:48:36 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it.
+2024-12-14 15:48:36 : WARN : No response received
+2024-12-14 15:48:36 : INFO : Parameter : Totalizer
+2024-12-14 15:48:36 : INFO : Analyzer found for Id : 1
+2024-12-14 15:48:36 : INFO : Type : RS485IEEE
+2024-12-14 15:48:36 : INFO : CommunicationType : IP
+2024-12-14 15:48:36 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-14 15:48:38 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it.
+2024-12-14 15:48:38 : WARN : No response received
+2024-12-14 15:48:38 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-14 15:48:38 : INFO : Station Name : LTDS
+2024-12-14 15:48:38 : INFO : Parameter : Flow1
+2024-12-14 15:48:38 : INFO : Analyzer found for Id : 1
+2024-12-14 15:48:38 : INFO : Type : RS485IEEE
+2024-12-14 15:48:38 : INFO : CommunicationType : IP
+2024-12-14 15:48:38 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-14 15:48:40 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it.
+2024-12-14 15:48:40 : WARN : No response received
+2024-12-14 15:48:40 : INFO : Parameter : Totalizer1
+2024-12-14 15:48:40 : INFO : Analyzer found for Id : 1
+2024-12-14 15:48:40 : INFO : Type : RS485IEEE
+2024-12-14 15:48:40 : INFO : CommunicationType : IP
+2024-12-14 15:48:40 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-14 15:48:42 : ERROR : Error at TCP communication Error : connect: No connection could be made because the target machine actively refused it.
+2024-12-14 15:48:42 : WARN : No response received

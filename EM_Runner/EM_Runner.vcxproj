@@ -171,6 +171,9 @@
     <ProjectReference Include="..\DateTime\DateTime.vcxproj">
       <Project>{9aa54c56-dff3-4ffe-9d08-f6059323ec3e}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\FileSystem\FileSystem.vcxproj">
+      <Project>{3ebf9e74-c666-4195-a211-6b8c619083f5}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Logger\Logger.vcxproj">
       <Project>{48accac2-bc6c-4ff0-b294-8423c2e83d9f}</Project>
     </ProjectReference>

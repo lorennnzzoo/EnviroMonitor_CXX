@@ -36,18 +36,8 @@ void Log::WriteToLogFile(Level level, const std::string& message,const std::exce
 	else {
 		messageTemplate = DateTime::GetCurrentTime("%Y-%m-%d %H:%M:%S") + " : "+ LevelToString(level) + " : " + message+" Error : "+exception->what()+"\n";
 	}
-	std::ofstream file(LOG_FILE_NAME, std::ios::app);
-	if (file.is_open()) {
-		if (file.good()) {
-			file << messageTemplate;
-		}
-		else {
-			throw std::ios_base::failure("Error writing to log file");
-		}
-	}
-	else {
-		throw std::ios_base::failure("Could not open log file");
-	}
+	File file(LOG_FILE_NAME);
+	file.WriteText(messageTemplate);
 }
 
 void Log::Information(const std::string& message) {

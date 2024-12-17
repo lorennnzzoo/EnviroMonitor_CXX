@@ -3,6 +3,7 @@
 #include "../../Logger//src/Log.h"
 #include "../../Communicator/src/Serial.h"
 #include "../../Communicator/src/TCP.h"
+
 std::string stationsJsonPath;
 std::string analyzersJsonPath;
 std::string parametersJsonPath;
@@ -16,8 +17,7 @@ const std::string CONFIG_PATH = "F:/C++/EnviroMonitor/EM_Runner/CONFIG/CONFIGURA
 
 int main() {
 	try {
-		Config::File configFile(CONFIG_PATH);
-
+		Config::File configFile(CONFIG_PATH);		
 
 
 		stationsJsonPath = configFile.GetStringKey("StationsPath");
@@ -112,6 +112,6 @@ int main() {
 	catch (const std::exception& ex) {
 		Log::Error("Error at main", &ex);
 	}
-	Log::Information("\nPress ENTER to terminate");
+	std::cout << "\nPress ENTER to terminate";
 	std::cin.get();
 }

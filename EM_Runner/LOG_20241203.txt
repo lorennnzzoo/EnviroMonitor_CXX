@@ -1,0 +1,44 @@
+2024-12-03 10:14:17 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-03 10:14:17 : INFO : Station Name : HTDS
+2024-12-03 10:14:17 : INFO : Parameter : Flow
+2024-12-03 10:14:17 : INFO : Analyzer found for Id : 1
+2024-12-03 10:14:17 : INFO : Type : RS485IEEE
+2024-12-03 10:14:17 : INFO : CommunicationType : IP
+2024-12-03 10:14:17 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-03 10:14:17 : WARN : No response received
+2024-12-03 10:14:17 : INFO : Parameter : Totalizer
+2024-12-03 10:14:17 : INFO : Analyzer found for Id : 1
+2024-12-03 10:14:17 : INFO : Type : RS485IEEE
+2024-12-03 10:14:17 : INFO : CommunicationType : IP
+2024-12-03 10:14:17 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-03 10:14:17 : WARN : No response received
+2024-12-03 10:14:17 : INFO : Count of matched parameters with Station Id : 2 = 2
+2024-12-03 10:14:17 : INFO : Station Name : LTDS
+2024-12-03 10:14:17 : INFO : Parameter : Flow1
+2024-12-03 10:14:17 : INFO : Analyzer found for Id : 1
+2024-12-03 10:14:17 : INFO : Type : RS485IEEE
+2024-12-03 10:14:17 : INFO : CommunicationType : IP
+2024-12-03 10:14:17 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-03 10:14:17 : WARN : No response received
+2024-12-03 10:14:17 : INFO : Parameter : Totalizer1
+2024-12-03 10:14:17 : INFO : Analyzer found for Id : 1
+2024-12-03 10:14:17 : INFO : Type : RS485IEEE
+2024-12-03 10:14:17 : INFO : CommunicationType : IP
+2024-12-03 10:14:17 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-03 10:14:17 : WARN : No response received
+2024-12-03 10:14:17 : INFO : 
+Press ENTER to terminate
+2024-12-03 10:50:54 : INFO : Count of matched parameters with Station Id : 1 = 2
+2024-12-03 10:50:54 : INFO : Station Name : HTDS
+2024-12-03 10:50:54 : INFO : Parameter : Flow
+2024-12-03 10:50:54 : INFO : Analyzer found for Id : 1
+2024-12-03 10:50:54 : INFO : Type : RS485IEEE
+2024-12-03 10:50:54 : INFO : CommunicationType : IP
+2024-12-03 10:50:54 : INFO : IP : 192.168.1.243 Port : 80
+2024-12-03 10:51:15 : ERROR : Error at TCP communication Error : connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2024-12-03 10:51:15 : WARN : No response received
+2024-12-03 10:51:15 : INFO : Parameter : Totalizer
+2024-12-03 10:51:15 : INFO : Analyzer found for Id : 1
+2024-12-03 10:51:15 : INFO : Type : RS485IEEE
+2024-12-03 10:51:15 : INFO : CommunicationType : IP
+2024-12-03 10:51:15 : INFO : IP : 192.168.1.243 Port : 80
